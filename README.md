@@ -12,7 +12,7 @@ For this project, I've built an basic home AD using a virtualized environment wi
 
 <h3>Main steps:</h3>
 
-- First, install Server 2019 ISO and set up a virtual machine to run as the Domain Controller. It should have two NICs: one connected to the external network and another to create a private network for client connections.
+- First, install Server 2019 ISO and set up a virtual machine to run as the Domain Controller. It should be connected to the external network and also to a private network that we're going to create for client connections.
 - Assign an IP address to the internal network, while the external network can obtain an IP address automatically from the home router.
 - Next, install AD and create the domain. Configure NAT and routing to allow the clients (Windows 10) in the private network to access the internet.
 
